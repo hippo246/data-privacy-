@@ -1,0 +1,172 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+     
+    color: #ffffff;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/guide-to-data-privacy-ip-min.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('images/guide-to-data-privacy-ip-min.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This makes the background stay in place during scrolling */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #fff; /* Text color should contrast with the background image */
+}
+
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: #fff;
+}
+
+h5 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+
+
+
+/* Flexbox Layout */
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.col {
+    flex: 1;
+    max-width: 800px;
+    padding: 0 15px;
+}
+
+.card {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Link Styles */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .col {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
+
+
+
+/* General Styles for About Page */
+.about-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h1,
+.about-section h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.team-member {
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #81dfda;
+}
+
+.team-member ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    margin-bottom: 10px;
+}
+
+.team-member ul li {
+    margin-bottom: 5px;
+}
